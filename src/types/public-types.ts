@@ -32,6 +32,7 @@ export interface Task {
   dependencies?: string[];
   hideChildren?: boolean;
   displayOrder?: number;
+  metadata?: Record<string, unknown>;
 }
 
 export interface EventOption {
